@@ -1,0 +1,33 @@
+/* assets/css/scrollbar.css */
+
+.scrollbar-hide {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-default {
+    scrollbar-color: #1ada14 #f1f1f1;
+    scrollbar-width: thin;
+}
+
+.scrollbar-default::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scrollbar-default::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.scrollbar-default::-webkit-scrollbar-thumb {
+    background-color: #1ada14;
+    border-radius: 6px;
+    border: 2px solid #f1f1f1;
+}
+
+.scrollbar-default::-webkit-scrollbar-thumb:hover {
+    background-color: #1ada14;
+}
